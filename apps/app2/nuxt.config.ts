@@ -11,8 +11,6 @@ export default defineNuxtConfig({
 
     extends: ['../../base'], // Extend monorepo's shared assets
 
-    css: ['@/assets/styles/ship.css'], // 
-
     telemetry: false, // F Telemetry
 
     devtools: { enabled: true },
