@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 
     extends: ['../../base'], // Extend monorepo's shared assets
 
-    css: ['@/assets/styles/ship.css'], // 
+    // css: ['assets/css/ship.css'], // 
 
     telemetry: false, // F Telemetry
 
@@ -88,7 +88,7 @@ export default defineNuxtConfig({
         // - unless XXserver launched w alias (XXservernocache)
         // - Faster DX for CMS client dev
         watch: process.env.DISABLE_CONTENT_WATCH === 'true' ? false : {
-            ws: { port: 2221, } // WebSocket server
+            ws: { port: 4444, } // WebSocket server
         },
 
     }, // Content
@@ -98,7 +98,7 @@ export default defineNuxtConfig({
     googleFonts: {
         download: true,
         families: {
-        Roboto: true,
+            Roboto: true,
         }
     },
     features: {
