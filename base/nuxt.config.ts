@@ -5,9 +5,15 @@
 //
 //------------------------------------------------------------------------------
 export default defineNuxtConfig({
-
-  // Export @@/base/assets/css/fleet.css for use by monorepo apps
-  css: ['~/assets/styles/css/fleet.css']
-
+  experimental: {
+    payloadExtraction: false
+  },
+  nitro: {
+    esbuild: {
+      options: {
+        target: 'esnext'
+      }
+    }
+  }
 })
 //<--------@@/base/nuxt.config.ts---------------------------------------------->

@@ -44,18 +44,33 @@ Ex, Make `@/base/assets/css/fleet.css` accessable to all monorepo apps:
 
 ```ts
 //<--------@@/base/nuxt.config.ts---------------------------------------------->
-import { fileURLToPath } from 'url'
-import { dirname, join } from 'path'
+// import { fileURLToPath } from 'url'
+// import { dirname, join } from 'path'
 
 // Relative paths in Layer are resolved relative to the app, not the Layer
-const currentDir = dirname(fileURLToPath(import.meta.url))
+// const currentDir = dirname(fileURLToPath(import.meta.url))
 
 // Make @/base/assets/css/fleet.css available for reuse
 export default defineNuxtConfig({
-  css: [
-    join(currentDir, './assets/css/fleet.css')
-  ]
+
+  experimental: {
+    payloadExtraction: false
+  },
+  nitro: {
+    esbuild: {
+      options: {
+        target: 'esnext'
+      }
+    }
+  },
+
+  // css: [
+  //   join(currentDir, './assets/css/fleet.css')
+  // ]
 })
+
+
+
 //<--------@@/base/nuxt.config.ts---------------------------------------------->
 ```
 
@@ -95,19 +110,7 @@ export default defineNuxtConfig({
 
 ## Prod Host Config
 
-Ex, `@@/vercel.json`:
-
-```json
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": ".output",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
-  "projects": [
-    { "name": "app1", "path": "apps/app1" },
-    { "name": "app2", "path": "apps/app2" }
-  ]
-}
-```
+If deploying to Vercel, no `Vercel.json` is rqd. 
 
 ## Reusing Components
 

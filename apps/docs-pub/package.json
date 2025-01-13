@@ -14,7 +14,7 @@
     "@nuxt/kit": "^3.14.159",
     "@nuxt/modules": "0.6.0-2c9296",
     "@nuxt/types": "^2.18.1",
-    "@nuxt/ui": "^2.19.2",
+    "@nuxt/ui": "^2.20.0",
     "@nuxthq/studio": "^2.1.1",
     "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/google-fonts": "^3.2.0",
