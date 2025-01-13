@@ -1,0 +1,10 @@
+/*--------@/assets/styles/fleet.css-------------------------------------------*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "fleet-code.css";
+@import "fleet-links.css";
+@import "fleet-typography.css";
+@import "fleet-ui.css";
+/*--------@/assets/styles/fleet.css-------------------------------------------*/
