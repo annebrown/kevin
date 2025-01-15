@@ -26,7 +26,7 @@ definePageMeta({
         <hr class="mx-2">
 
         <!-- Logo -->
-        <ImgLogo class="absolute -bottom-[1.5rem] right-[1.2rem] w-[4rem] h-auto pb-22 "/> 
+        <ImgLogo class="absolute bottom-0 right-[1.2rem] w-[4rem] h-auto pb-22 "/> 
 
     </div>
     <p class="mx-2 mb-4 p-2 pl-0 text-small">

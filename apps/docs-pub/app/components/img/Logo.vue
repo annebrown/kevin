@@ -1,7 +1,7 @@
 <template>
 
 <NuxtImg    
-    src='logo.svg' 
+    src='new-logo-00.svg' 
     alt='Logo - Open Book with initials, AB on Sails'
-    height='480' width='480' />
+    height='70' width='44' />
 </template>

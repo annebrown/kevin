@@ -15,7 +15,7 @@
             text-[--primary-light] !dark:text-[--primary-dark]">.annebrown.ca</span>
     </template>
     
-    <NuxtImg src="logo.svg" width="100" height="100" alt="logo" class="mx-auto m-0 -mt-5 p-0 pb-2"/>
+    <ImgLogo class="mx-auto m-0 -mt-5 p-0 pb-2 h-[44px] w-[70px]"/>
     <p class="text-center pb-8">CMS Client</p>
    
 

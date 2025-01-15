@@ -102,5 +102,5 @@ export default defineNuxtConfig({
     features: {
         devLogs: true,
     },
-  })
+})
 //<--------@/nuxt.config.ts---------------------------------------------------->

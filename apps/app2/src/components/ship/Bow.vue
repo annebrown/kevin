@@ -33,11 +33,9 @@ watch([x, y], () => {
             bg-[--body-light] dark:bg-[--body-dark] 
             text-[--accent-light] dark:text-[--accent-dark] rounded-lg'>
             <NuxtLink href='/'>
-                <span class="text-black text-[9px] w-fit m-0 mt-[0.1rem] -ml-[2rem] p-0">
-                    DOCS
-                </span>
 
-                <span class="text-sky-500 text-[12px] w-fit m-0 mt-2 ml-[0.1rem] p-0 pr-2">
+
+                <span class="text-sky-500 text-[10px] w-fit m-0 mt-2 ml-[0.1rem] p-0 pr-2">
                     .annebrown.ca
                 </span>
             </NuxtLink>

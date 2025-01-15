@@ -1,7 +1,7 @@
 ---
 title: Docs Project
 description: Tech Ref Docs
-toc: false
+navigation: false
 ---
 
 ## Description

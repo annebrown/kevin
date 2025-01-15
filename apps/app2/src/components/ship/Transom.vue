@@ -1,9 +1,9 @@
 <template><div>
 
-<p id="transom" class="flex justify-between h-8">
+<p id="transom" class="flex justify-between h-8 text-xs">
 
 <!-- Copyright -->
-<span id="copy" class="mt-1 p-0">
+<span id="copy" class="mt-1 p-0 text-xs">
     Copyright 
     <NuxtLink href="/docs/tech/tools/pinia" 
         class="
@@ -12,7 +12,7 @@
             cursor-text
     ">
         @
-    </NuxtLink> 2024  <NuxtLink href='https://www.annebrown.ca'>Anne Brown</NuxtLink>
+    </NuxtLink> 2024  <NuxtLink href='https://www.annebrown.ca'><span  class="text-orange-800">Anne Brown</span></NuxtLink>
 </span>
 
  <!-- Center of Transom -->

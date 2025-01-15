@@ -1,9 +1,9 @@
 {
-  "name": "docs-pub",
+  "name": "app2",
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --host 192.168.4.21 --port 4223",
+    "dev": "nuxt dev --host 192.168.4.21 --port 4441",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },

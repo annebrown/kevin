@@ -10,6 +10,7 @@ export default {
     './nuxt.config.{js,ts}',
     './public/**/*.html',
     './app/**/*.{js,jsx,ts,tsx,vue}',
+    './assets/css/**/*.{css,scss}', // Add this line to include CSS files
   ],
   theme: {
     extend: {},

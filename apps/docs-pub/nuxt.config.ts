@@ -5,13 +5,13 @@
 // Uses monorepo shared assets
 //
 //------------------------------------------------------------------------------
-import { resolve } from "node:path"; // Local Content
+import { defineNuxtConfig } from 'nuxt/config'
+import { resolve } from 'path'
 
 export default defineNuxtConfig({
 
     extends: ['../../base'], // Extend monorepo's shared assets
-
-    // css: ['assets/css/ship.css'], // 
+    css: [ resolve(__dirname, 'app/assets/css/ship.css') ], 
 
     telemetry: false, // F Telemetry
 
@@ -33,11 +33,15 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         '@nuxt/icon',
     ],
+
+    tailwindcss: {
+        configPath: '../../base/tailwind.config.ts', // Path to Tailwind config
+      },
     colorMode: {
         classSuffix: '',
         preference: 'dark',
     },
-    srcDir: 'src/',
+    srcDir: 'app/',
 
     content: {
 
@@ -53,7 +57,7 @@ export default defineNuxtConfig({
                 default: 'github-dark',
                 light: 'github-light',
             },
-            langs: ['regexp', 'perl', 'json', 'js', 'ts', 'tsx', 'html', 'css', 
+            langs: ['go', 'regexp', 'perl', 'json', 'js', 'ts', 'tsx', 'html', 'css', 
                 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 'java', 
                 'diff', 'log', 'mermaid'
             ],

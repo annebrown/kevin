@@ -25,8 +25,12 @@
     :root {
         --accent-light: #0ea5e9; /* sky-500 */ 
         --accent-dark: #0ea5e9; /* sky-500 */ 
+
         --primary-light: #f97316; /* orange-500 */
         --primary-dark: #f97316; /* orange-500 */
+        --primary-dimmed-light: #431407; /* orange-950 */
+        --primary-dimmed-dark: #7c2d12; /* orange-900 */
+
         --text-light: black; 
         --text-dark: #cbd5e1; /* gray-300 */ 
         --text-dimmed-light: #64748b; /* slate-500 */
@@ -44,7 +48,6 @@
         --debug-text-dark: #f97316; /* orange-500 */
     }
 }
-
 /******************************************************************************/
 /*
 /* Containers

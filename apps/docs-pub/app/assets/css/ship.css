@@ -1,0 +1,7 @@
+/*--------@/assets/styles/ship.css--------------------------------------------*/
+@import "ship-colors.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*--------@/assets/styles/ship.css--------------------------------------------*/
