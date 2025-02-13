@@ -1,9 +1,9 @@
 ---
-title: Docs Project
-description: Tech Ref Docs
+title: Docs-Pub CMS
+description: CMS Content
 navigation: false
 ---
 
 ## Description
 
-Root of built-in CMS, and external CMSs (remotely hosted, and locally cloned headless CMS)
+Root of built-in and external (remotely hosted and locally cloned) CMSs

@@ -1,3 +1,4 @@
+<!--------@/pages/[...slug].vue------------------------------------------------>
 <script lang="ts" setup>
 const route = useRoute()
 
@@ -10,6 +11,7 @@ if (!page.value) {
 
 <template><!-- No div - breaks route-->
     <NuxtLayout>
-        <ContentRenderer :value="page" />
+        <ContentDoc />
     </NuxtLayout>
 </template>
+<!--------@/pages/[...slug].vue------------------------------------------------>

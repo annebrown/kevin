@@ -1,9 +1,10 @@
+<!--------@/error.vue---------------------------------------------------------->
 <script setup lang="ts">
-import type { NuxtError } from '#app'
+    import type { NuxtError } from '#app'
 
-defineProps({
-  error: Object as () => NuxtError
-})
+    defineProps({
+    error: Object as () => NuxtError
+    })
 </script>
 
 <template><div>
@@ -18,29 +19,30 @@ defineProps({
     <!-- Midships -->
     <div id="midships" class="m-0 p-0">
 
-    <!-- Cargo -->
-    <div id="cargo">
-        <h1 class="splash-title"><!-- Title -->
-            Sorry, boss
-        </h1> 
-    
-        <p class="text-red-400 text-center text-xl">
-            No Authz!
-        </p>
+        <!-- Cargo -->
+        <div id="cargo">
+            <h1 class="splash-title"><!-- Title -->
+                Sorry, boss
+            </h1> 
+        
+            <p class="text-red-400 text-center text-xl">
+                No Authz!
+            </p>
 
-        <!-- Error Code -->
-        <!-- <p>Error: : {{ error.statusCode }}</p> -->
+            <!-- Error Code -->
+            <!-- <p>Error: : {{ error.statusCode }}</p> -->
 
-        <p class="text-center pt-2 pb-8">
-            <a href="javascript:history.back()"
-                class="goback">
-                <Icon name="ph:arrow-left" class="h-4 w-4 align-middle" />
-                Go Back
-               
-            </a>
-        </p>
+            <!-- Go Back Button -->
+            <p class="text-center pt-2 pb-8">
+                <a href="javascript:history.back()"
+                    class="goback"
+                >
+                    <Icon name="ph:arrow-left" class="h-4 w-4 align-middle" />
+                    Go Back
+                </a>
+            </p>
 
-    </div><!-- Cargo -->
+        </div><!-- Cargo -->
 
     </div><!-- Midships -->
 
@@ -82,3 +84,4 @@ defineProps({
 }
 
 </style>
+<!--------@/error.vue---------------------------------------------------------->

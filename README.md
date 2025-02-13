@@ -2,26 +2,22 @@
 
 ## Description
 
-Public Monorepo Template
-
-Similarly focused apps, sharing a common asset base
+- Monorepo Template
+- Similarly focused apps, sharing common asset base
 
 ## Purpose
 
-Evaluate monorepo and Nuxt Layers for sharing assets among projects
+- Accelerated proj dev, smaller codebase, easier maint
+- Improved DX, modularity and content/code separation
 
 ## Repos
 
-Public Monorepo: [kevin](https://github.com/annebrown/kevin)
+Monorepo: [kevin](https://github.com/annebrown/kevin)
 
-Private Monorepo: [rowan](https://github.com/annebrown/rowan) 
-
-External CMS Repo: [content-data](https://github.com/annebrown/content-data)
-
-Private NPM Assets Package: not started
-
-Private GitHub Assets Repo: not started
+CMS Repo: [content-data](https://github.com/annebrown/content-data)
 
 ## Deployments
 
-Client App Template - [docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)
+App Template Demos:
+
+- [docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)

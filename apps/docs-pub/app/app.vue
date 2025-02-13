@@ -1,4 +1,4 @@
-<!----------------------------------@/app.vue---------------------------------->
+<!--------@/app.vue------------------------------------------------------------>
 <template><div>  
 <NuxtRouteAnnouncer /><!-- Assistive Technologies --> 
 
@@ -11,22 +11,17 @@
         <!-- Bow -->
         <ShipBow id="bow" class="w-full h-[2.2rem] m-0 p-0;" />
 
-        <!-- Midships -->
-        <div id="midships" class="flex m-0 p-0 pt-[1rem] ">
-
-            <!-- Cargo -->
-            <div id="cargo" class="min-w-96 p-2">
+            <!-- Midships -->
+            <div id="midships" class="min-w-96 p-2">
                 <NuxtPage />
             </div>
-
-            </div><!-- Midships -->
         
         <!-- Transom -->
-        <ShipTransom id="transom" class="mx-auto  p-1 px-3" />
+        <ShipTransom id="transom" class="mx-auto p-0 pt-1 px-2 text-xs" />
     
     </div><!-- Ship -->
    
 </div><!-- Center Everything -->
 
 </div></template>
-<!----------------------------------@/app.vue---------------------------------->
+<!--------@/app.vue------------------------------------------------------------>

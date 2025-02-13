@@ -1,25 +1,6 @@
+/*--------@@/base/assets/css/ship-colors.css----------------------------------*/
 /******************************************************************************/
-/*
-/* File: @/assets/styles/fleet-colors.css
-/* 
-/* See Also: 
-/* - @data/colors.txt - Cut/paste for variables
-/* - fleet.css - Sourced From
-/*      
-/* - Variables
-/* - Colors
-/*   - Containers
-/*   - Code Blocks
-/*   - Text
-/*   - Text Links
-/*   - Icon Links
-/*
-/******************************************************************************/
-
-/******************************************************************************/
-/*
 /* Variables
-/*
 /******************************************************************************/
 @layer base {
     :root {
@@ -29,7 +10,7 @@
         --primary-light: #f97316; /* orange-500 */
         --primary-dark: #f97316; /* orange-500 */
         --primary-dimmed-light: #431407; /* orange-950 */
-        --primary-dimmed-dark: #7c2d12; /* orange-900 */*/
+        --primary-dimmed-dark: #7c2d12; /* orange-900 */
         --text-light: black; 
         --text-dark: #cbd5e1; /* gray-300 */ 
         --text-dimmed-light: #64748b; /* slate-500 */
@@ -47,23 +28,17 @@
         --debug-text-dark: #f97316; /* orange-500 */
     }
 }
-
 /******************************************************************************/
-/*
 /* Containers
-/*
 /******************************************************************************/
 body { @apply bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
-#midships { @apply bg-[--midships-light] dark:bg-[--midships-dark]
-    rounded-lg; }
-#navi, #main-menu { @apply
-    bg-[--body-bg-light] dark:bg-[--body-bg-dark]
-    rounded-lg; }
-.gunnel { @apply bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
+.gunnel { @apply bg-[--body-bg-light] dark:bg-[--body-bg-dark] rounded-md; }
+#midships { @apply rounded-lg shadow
+    bg-[--midships-light] dark:bg-[--midships-dark]; }
+#navi, #main-menu { @apply rounded-lg
+    bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
 /******************************************************************************/
-/*
 /* Text 
-/*
 /******************************************************************************/
 p { @apply text-[--text-light] dark:text-[--text-dark]; }
 p#transom { @apply text-[--text-dimmed-light] dark:text-[--text-dimmed-dark]; }
@@ -71,16 +46,13 @@ p.dimmed { @apply text-[--text-dimmed-light] dark:text-[--text-dimmed-dark]; }
 h1, title { @apply text-[--accent-light] dark:text-[--accent-dark]; }
 h2, h2, h4 { @apply text-[--primary-light] dark:text-[--primary-dark]; }
 /******************************************************************************/
-/*
 /* Text Links 
-/*
 /******************************************************************************/
 a { @apply text-[--primary-light] dark:text-[--primary-dark]; }
 a:hover, a:active, a:focus { @apply text-current dark:text-current font-bold; } 
 /******************************************************************************/
-/*
-/* Icon Links 
-/*
+/* Image Links 
 /******************************************************************************/
 svg { @apply stroke-[--primary-light] dark:stroke-[--primary-dark] stroke-2; }
 svg:hover, svg:active, svg:focus { @apply stroke-current dark:stroke-current stroke-2; } 
+/*--------@@/base/assets/css/ship-colors.css----------------------------------*/

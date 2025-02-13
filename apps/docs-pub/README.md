@@ -1,8 +1,16 @@
-# Headless CMS Client Template
+# docs-pub
 
 ## Description
 
-@[Nuxt](https://nuxt.com/)/[Content](https://content.nuxt.com/) Client - Accesses external CMS
+- Monorepo [Nuxt](https://nuxt.com/) App Template
+- CMS Client
+
+## Purpose
+
+Code sharing for: 
+
+- Accelerated proj dev, smaller codebase, easier maint
+- Improved DX, modularity and content/code separation
 
 ## Repos
 
