@@ -1,7 +1,13 @@
-/*--------@@base/assets/css/fleet-code.css------------------------------------*/
+/*--------@@/base/assets/css/fleet-code.css-----------------------------------*/
 /******************************************************************************/
-.shiki { @apply w-full rounded text-wrap text-xs 
-    bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
-code { @apply p-1 text-xs bg-[--body-bg-light] dark:bg-gray-900; }
-pre { @apply w-full mr-4 mb-4 ml-2 px-2; }
-/*--------@@base/assets/css/fleet-code.css------------------------------------*/
+/* Syntax Highlighting
+/******************************************************************************/
+.shiki { @apply w-fit my-0 py-0 text-xs/4 
+    rounded-sm bg-[--body-bg-light] dark:bg-black; }
+
+code { @apply w-fit my-0 py-0 px-1 text-wrap
+    text-xs/4 rounded-sm bg-[--body-bg-light] dark:bg-black; }
+    
+pre { @apply inline-block w-fit mr-4 mb-4 ml-0 py-0 px-2 
+    rounded-md bg-[--body-bg-light] dark:bg-black; } 
+/*--------@@/base/assets/css/fleet-code.css-----------------------------------*/
