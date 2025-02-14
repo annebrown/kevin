@@ -1,6 +1,5 @@
-<!--------@/components/content/RouteDynamicImmediateChildCarts.vue------------->
 <script setup>
-const route = useRoute()
+  const route = useRoute()
 const currentPath = route.path
 
 // Fetch immediate subpages of the current page
@@ -23,19 +22,20 @@ const immediateSubpages = computed(() => {
 <template><div>
 
     <div class="flex flex-row gap-4 flex-wrap">
-        <div v-for="page in immediateSubpages" :key="page._path" class="child-card card-shadowed-link">
+        <div v-for="page in immediateSubpages" :key="page._path" class="card">
             <NuxtLink :to="page._path">
-                <h2 class="w-fit mx-auto pb-1 !leading-6 text-[--accent-light] dark:text-[--accent-dark]">{{ page.title }}</h2>
-                <p class="w-fit mx-auto text-current text-xs">
+                <h2 class="text-center pb-2 !leading-6">{{ page.title }}</h2>
+                <p class="text-xs text-current">
                     {{ page.description }}
                 </p>
             </NuxtLink>
         </div>
     </div>
     
-</div></template>
+    </div></template>
   
-<style scoped>
-.child-card { @apply w-fit h-24 m-0 p-2 ring-1 rounded-md ring-[--accent-light] dark:ring-[--accent-dark] text-center bg-gray-950; }
-</style>
-  <!--------@/components/content/RouteDynamicImmediateChildCarts.vue------------->
+  
+  
+  <style scoped>
+ .card { @apply w-44 h-28 m-0 p-2 ring-1 rounded-md text-center bg-gray-950; }
+  </style>

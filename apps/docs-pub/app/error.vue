@@ -64,24 +64,5 @@
 
     ;
 }
-.card-logo.svg {
-    @apply w-auto h-[4rem];
-}
-.card-logo-sig {
-    @apply w-10 h-10;
-}
-.card-deploy-type {
-    @apply text-xs font-extrabold my-0 py-0;
-}
-.card-title {
-    @apply text-xl font-extrabold my-0 py-0;
-}
-.card-descr {
-    @apply text-current font-medium leading-[150%] my-0 py-0;
-}
-.card-sig {
-    @apply  text-xs font-extrabold my-0 py-0;
-}
-
 </style>
 <!--------@/error.vue---------------------------------------------------------->

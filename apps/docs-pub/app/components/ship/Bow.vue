@@ -14,13 +14,15 @@
         </NuxtLink>
 
         <!-- Domain Name -->  
-        <div class='z-10 inline-block m-0 p-0 align-middle
-            rounded-lg bg-[--body-bg-light] dark:bg-[--body-bg-dark] 
+        <div class='z-10 inline-block align-top m-0 mt-4 p-0
             text-[--accent-light] dark:text-[--accent-dark]'>
 
             <NuxtLink href='/'>
-                <span class="w-fit h-fit m-0 p-0 px-2
-                    text-sky-500 text-[9px]">.annebrown.ca</span>
+                <span class="w-fit h-fit m-0 p-0
+                    text-sky-500 text-[12px]"
+                >
+                    .annebrown.ca
+                </span>
             </NuxtLink>
 
         </div><!-- Domain Name -->

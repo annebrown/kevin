@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="26"
+   height="24"
+   viewBox="0 0 26 23.999999"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo-docs.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="13.696285"
+     inkscape:cx="23.802075"
+     inkscape:cy="17.157937"
+     inkscape:window-width="1734"
+     inkscape:window-height="740"
+     inkscape:window-x="178"
+     inkscape:window-y="941"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer5"
+     showgrid="false" />
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="1.7342"
+     d="M 12.956069,7.429911 A 11.525682,9.3311847 0 0 0 5.2465832,5.0456216 c -1.35173,0 -2.6494934,0.1872477 -3.854743,0.5326159 V 20.402027 a 11.564229,9.3623926 0 0 1 3.854743,-0.532617 c 2.9617275,0 5.6639038,0.901912 7.7094858,2.38429 m 0,-14.823789 a 11.525682,9.3311847 0 0 1 7.709488,-2.3842894 c 1.35173,0 2.649493,0.1872477 3.854742,0.5326159 V 20.402027 A 11.564229,9.3623926 0 0 0 20.665557,19.86941 11.525682,9.3311847 0 0 0 12.956069,22.2537 m 0,-14.823789 V 22.2537"
+     id="path1"
+     style="fill:#fffff9;fill-opacity:1;stroke:#0ea5e9;stroke-opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Sizing Shape"
+     transform="matrix(0.5326252,0,0,0.74588234,2.877734,5.2280386)"
+     style="display:none">
+    <rect
+       style="fill:#450ba5;fill-opacity:1;stroke:none;stroke-width:0.354;stroke-linecap:round;stroke-dasharray:0.708, 0.354;paint-order:stroke fill markers"
+       id="rect3"
+       width="48.115238"
+       height="31.030312"
+       x="-5.402925"
+       y="-7.0092001" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="DOCS-PUB"
+     style="display:none"
+     transform="translate(-0.64372498,1.12964)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.98005px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#0ea5e9;stroke-width:0.330552;stroke-linecap:round;stroke-dasharray:0.661103, 0.330552;paint-order:stroke fill markers"
+       x="11.973576"
+       y="13.154598"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="11.973576"
+         y="13.154598"
+         style="stroke-width:0.330552"><tspan
+           style="stroke:none;stroke-width:0.330552"
+           id="tspan3"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.98005px;font-family:Hack;-inkscape-font-specification:'Hack, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.330552"
+             id="tspan4">DOCS</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.47009px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.330552"
+             id="tspan5">-</tspan></tspan><tspan
+           style="fill:#f97316;fill-opacity:1;stroke:none;stroke-width:0.330552"
+           id="tspan2">PUB</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Sails"
+     transform="translate(-0.64372498,1.12964)"
+     style="display:inline">
+    <g
+       id="g1"
+       transform="matrix(1.2084869,0,0,1.1990655,0.17012724,-1.0064757)">
+      <path
+         id="path10"
+         style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.507468;stroke-linecap:round;paint-order:stroke fill markers"
+         d="M 3.9318995,13.228773 1.0933434,13.101003 11.288722,0.62339858 12.658258,2.4021033 Z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path11"
+         style="display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:0.507468;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 18.464898,14.025104 2.8941996,14.10439 13.302245,1.2761577 21.17343,10.863444 Z"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="DOCS"
+     style="display:inline;fill:#fffff9;fill-opacity:1"
+     transform="translate(-0.64372498,1.12964)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.98005px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#000000;stroke:#0ea5e9;stroke-width:0.330552;stroke-linecap:round;stroke-dasharray:0.661103, 0.330552;paint-order:stroke fill markers"
+       x="10.307854"
+       y="13.602043"
+       id="text1-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-5"
+         x="10.307854"
+         y="13.602043"
+         style="stroke-width:0.330552"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.98005px;font-family:Hack;-inkscape-font-specification:'Hack, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.330552"
+           id="tspan3-6">DOCS</tspan></tspan></text>
+  </g>
+</svg>

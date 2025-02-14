@@ -7,9 +7,9 @@
 // Exposes Reactive Config to App
 // Exposed to user client bundle, so NO SECRET VALS.
 export default defineAppConfig({
-    title: 'Kevin!',
+    title: 'kevin',
     socials: {
-        github: 'annebrown',
+        github: 'annebrown/kevin',
     },
     nuxtIcon: {
         aliases: {

@@ -1,5 +1,6 @@
 <!--------@/layouts/Splash.vue------------------------------------------------->
-<template><div><!-- Layouts -> Single Root Element -->
+<!-- Layouts -> Single Root Element -->
+<template><div>
 
     <!-- Midships -->
     <div class="relative min-w-96 p-1 sm:p-2 md:p-4">

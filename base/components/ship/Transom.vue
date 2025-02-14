@@ -1,30 +1,51 @@
-<!--------@/components/ship/transom.vue---------------------------------------->
+<!--------@@/base/components/ship/transom.vue---------------------------------->
 <template><div>
 
-<p id="transom" class="flex justify-between h-8">
+    <!-- Flex -->
+    <p class="relative h-7 align-top  text-xs
+        text-[--text-dimmed-light] dark:text-[--text-dimmed-dark]">
 
-<!-- Copyright -->
-<span id="copy" class="-mt-1 p-0">
-    Copyright 
-    <NuxtLink href="/docs/tech/tools/pinia" 
-        class="
-            text-[--text-dimmed-light] 
-            dark:text-[--text-dimmed-dark]
-            cursor-text
-    ">
-        @
-    </NuxtLink> 2024  <NuxtLink href='https://www.annebrown.ca'><span  class="text-[--primary-dimmed-light] dark:text-[--primary-dimmed-dark]">Anne Brown</span></NuxtLink>
-</span>
+        <!-- Copyright String -->
+        <span class="absolute inline-block bottom-[0.9rem] left-0 m-0 ml-1 p-0">
 
- <!-- Center of Transom -->
-<span class=""><!-- spacer --></span>
+            Copyright
 
- <!-- GitHub & Color Mode Toggle -->
-<span class="inline-block m-0 p-0 pt-1 h-9 align-bottom self-center">
-   <ImgSocialIcons class="social-icon inline-block align-bottom m-0 p-0 mr-1 mb-0.5" />
-   <ImgColorModeSwitch class="mode-switch inline-block align-bottom m-0 p-0" />
-</span>
-</p>    
+            <!-- @ Shortcut -->
+            <NuxtLink  
+                :prefetch="false" 
+                href="/devy"
+                class="
+                    text-[--text-dimmed-light] dark:text-gray-400"
+            >
+                @ 
+            </NuxtLink><!-- @ Shortcut -->
+
+            2025
+
+            <NuxtLink href='https://www.annebrown.ca'>
+                <span  class=" ml-1 
+                    text-[--primary-dimmed-light] 
+                    dark:text-[--primary-dimmed-dark]">
+                    Anne Brown
+                </span>
+            </NuxtLink>
+
+        </span><!-- Copyright String -->
+
+         <!-- Center of Transom -->
+        <span><!-- spacer --></span>
+       
+         <!-- GitHub & Color Mode Toggle -->
+        <span class="absolute -top-1 right-0 m-0 p-0">
+            <!-- GitHub -->
+            <ImgSocialIcons class="social-icon inline-block align-bottom 
+                m-0 mb-2 p-0" />
+            <!-- Color Mode Toggle -->
+            <ImgColorModeSwitch class="mode-icon inline-block align-top 
+                 m-0 p-0" />
+        </span>
+
+    </p><!-- Flex -->  
 
 </div></template>
-<!--------@/components/ship/transom.vue---------------------------------------->
+<!--------@@/base/components/ship/transom.vue---------------------------------->

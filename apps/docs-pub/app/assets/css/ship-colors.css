@@ -15,8 +15,8 @@
 
         --text-light: #155e75; /* cyan-800 */
         --text-dark: white; 
-        --text-dimmed-light: gray-700;
-        --text-dimmed-dark: gray-300;
+        --text-dimmed-light: #334155; /* gray-700 */
+        --text-dimmed-dark: #64748b; /* gray-500 */
         
         --body-bg-light: #cbd5e1; /* slate-300 */
         --body-bg-dark: #020617; /* gray-950 */

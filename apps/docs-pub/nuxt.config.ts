@@ -1,22 +1,13 @@
 //<--------@/nuxt.config.ts---------------------------------------------------->
-import { defineNuxtConfig } from 'nuxt/config'
 import { resolve } from "path" // Rqd for locally cloned CMS
 
 export default defineNuxtConfig({
 
     telemetry: false, // F Telemetry
 
-    extends: ['../../base'],
-    css: [ resolve(__dirname, 'app/assets/css/ship.css') ], 
     srcDir: 'app/',
-    app: {
-        head: {
-            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-        }
-    },
-    tailwindcss: {
-        configPath: '../../base/tailwind.config.ts',
-    },
+
+    extends: ['../../base'],
 
     modules: [
         '@nuxt/ui',
@@ -28,6 +19,20 @@ export default defineNuxtConfig({
         '@nuxtjs/mdc', 
         '@nuxt/icon',
     ],
+
+    css: [ resolve(__dirname, 'app/assets/css/ship.css') ], 
+
+    app: {
+        head: {
+            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        }
+    },
+
+    tailwindcss: {
+        configPath: '../../base/tailwind.config.ts',
+    },
+
+
 
     content: {
         // Use Cache 4 Dev Server
@@ -54,35 +59,19 @@ export default defineNuxtConfig({
                 'css', 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 
                 'java', 'diff', 'log', 'mermaid'
             ],
+
         }, // highlight
         
         sources: {
             github: { // GitHub Public Repo
-            prefix: '/docs-pub', // Route Prefix
-            driver: 'github',  
-            repo: "annebrown/content-base",
-            branch: "main",
-            dir: "content", 
+                prefix: '/docs-pub', // Route Prefix
+                driver: 'github',  
+                repo: "annebrown/content-base",
+                branch: "main",
+                dir: "content", 
             },
-            localDocsPub: {
-                prefix: '/local-docs-pub', // Route Prefix
-                driver: 'fs',
-                base: resolve(__dirname, 
-                    '/home/anne/devy/prod/content-data/content-data/content'),
-            },
-            localDocsPriv: {
-                prefix: '/docs-priv', // Route Prefix
-                driver: 'fs',
-                base: resolve(__dirname, 
-                    '/home/anne/devy/proj/docs-priv/docs-priv/content'),
-            },
-            // backups: {
-            //     prefix: '/local-backups',
-            //     driver: 'fs',
-            //     base: resolve(__dirname, '~/prod/content-data/backups'),
-            // },
+         }, // sources
 
-        }, // sources
     }, // Content
 
     devtools: { enabled: true },

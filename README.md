@@ -2,8 +2,8 @@
 
 ## Description
 
-- Monorepo Template
-- Similarly focused apps, sharing common asset base
+- Monorepo [Nuxt](https://nuxt.com/) App Template
+- CMS Client
 
 ## Purpose
 
@@ -16,8 +16,6 @@ Monorepo: [kevin](https://github.com/annebrown/kevin)
 
 CMS Repo: [content-data](https://github.com/annebrown/content-data)
 
-## Deployments
+## Demo
 
-App Template Demos:
-
-- [docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)
+[docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)
